@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Exercice 5</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</head>
+<body>
+  <div ng-app="myApp" ng-controller="myCtrl">
+    <button type="button" name="button" ng-click="para1()">paragraphe1</button>
+    <button type="button" name="button" ng-click="para2()">paragraphe2</button>
+    <div ng-show="text1">
+      <p>Ceci est mon premier paragraphe</p>
+    </div>
+    <div ng-show="text2">
+      <p>Et ceci est le second</p>
+    </div>
+  </div>
+</body>
+</html>
